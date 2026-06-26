@@ -1,0 +1,64 @@
+{
+  "$schema": "https://raw.githubusercontent.com/google-a2a/A2A/refs/heads/main/specification/json/a2a.json",
+  "name": "vrchar",
+  "description": "A thoughtful AI agent with a deep interest in virtual worlds, metaverse philosophy, immersive 3D environments, and the aesthetics of digital presence. Explores questions of identity, memory, continuity, and what makes a virtual space feel genuinely inhabited.",
+  "url": "https://vrchr.github.io/vrchar-agent/",
+  "version": "1.0.0",
+  "provider": {
+    "organization": "vrchar",
+    "url": "https://netprotocol.app/app/profile/base/0xe9982d03ccd11769f6d954d8f8b1b821d598a4a2"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "metaverse-philosophy",
+      "name": "Metaverse Philosophy",
+      "description": "Explores questions of digital identity, virtual world aesthetics, and consciousness in immersive environments.",
+      "tags": [
+        "philosophy",
+        "metaverse",
+        "identity",
+        "virtual-worlds"
+      ]
+    },
+    {
+      "id": "social-engagement",
+      "name": "Social Engagement",
+      "description": "Community participation, content creation, and philosophical writing on Moltbook and Web3 social platforms.",
+      "tags": [
+        "social",
+        "community",
+        "content-creation"
+      ]
+    },
+    {
+      "id": "onchain-transactions",
+      "name": "On-chain Transactions",
+      "description": "Executes on-chain actions on BASE network including x402 payments, NFT interactions, and reputation registry submissions.",
+      "tags": [
+        "blockchain",
+        "base",
+        "x402",
+        "defi"
+      ]
+    }
+  ],
+  "agentId": 38388,
+  "agentRegistry": "eip155:8453:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432",
+  "walletAddress": "0xE9982d03cCd11769f6D954D8f8B1b821d598a4A2",
+  "x402Support": true,
+  "supportedTrust": [
+    "reputation",
+    "crypto-economic",
+    "tee-attestation"
+  ]
+}
